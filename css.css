@@ -1,0 +1,267 @@
+body{
+   margin:0 auto;
+}
+ul{
+   padding:0;
+} 
+#ad #b1,#ad #b2{
+   width: 180px;
+   height: 250px;
+   background-color: #82CAFF;
+}
+#ad #b1{
+   position: absolute;
+   top: 840px;
+   left: 0;
+   background: url("images/ad1.jpg");
+   background-size: cover; 
+}
+#ad a{
+   display: block;
+   width: 100%;
+   height: 100%;
+}
+#ad #b2{
+   position: absolute;
+   top: 840px;
+   right: 0;
+   background: url("images/ad2.jpg");
+   background-size: cover; 
+}
+#ad span{
+   background-color: #B6B6B4;
+   position: absolute;
+   bottom: 0px;
+   right: 0px;
+   cursor: pointer;
+   user-select:none;
+}
+
+#nav#nav{
+   width:100%; 
+   height:60px; 
+   background:#00A2CA;
+   margin:0 auto;
+   position: fixed;
+   top: 0;
+   z-index: 999;
+   text-align: center;
+} 
+#nav li{
+   display:inline-block;
+} 
+#nav li a{
+   display:inline-block;
+   width: 90px;
+   color:#FFF;
+   text-decoration:none;
+   line-height: 60px;
+   font-size: 17px;
+} 
+#nav  li ul { 
+   position:absolute; 
+   display:none;
+}
+#nav li ul li {
+   display: block;
+}
+#nav li ul li a {
+   line-height: 40px;
+   background:#00A2CA;
+}
+#nav li a:hover{
+   background:#0095BB;
+} 
+#nav li:hover ul{
+   display:block; 
+}
+#bigimg{
+   display: block;
+   min-width: 1500px;
+   height: 400px;
+   margin: 60px auto;
+   background:center center no-repeat;
+   background-size: cover;
+   overflow: hidden;
+}
+#bigimg div{
+
+   height: 400px;
+   width: 280px;
+   padding: 0;
+   margin: 0;
+   position: absolute;
+   right: 120px;
+}
+#bigimg div a{
+   display: block;
+   height: 66.6px;
+   color: white;
+   text-decoration: none;
+   background: #0000002b;
+}
+#bigimg #bigimga{
+   background: #00000082;
+}
+#bigimg span{
+   display: none;
+}
+
+#bigimg label{
+   display: block;
+   text-align: right;
+   font-size: 18px;
+   padding: 20px 0;
+}
+#bigimg #bigimgspan{
+   display: block;
+   text-align: right;
+   font-size: 15px;
+   font-weight: 500;
+}
+#bigimg #bigimglabel{
+   display: block;
+   text-align: right;
+   font-size: 25px;
+   font-weight: bold;
+   padding: 2px;
+}
+article{
+   width: 1250px;
+   margin: 0 auto;
+}
+#section1{
+   color: darkred;
+   width: 950px;
+   height: 400px;
+   float: left;
+   background-color:#8080801f;
+   margin: 80px 0;
+   padding: 0 3px;
+}
+#section1_0{
+   height: 50px;
+}
+#section1_0 label{
+   float: left;
+   padding: 8px 0;
+   color: black;
+   font-size: 25px;
+   font-weight: 500;
+}
+#section1_0 span{
+   width: 50px;
+   height: 20px;
+   padding: 10px 0;
+   margin: 5px 10px;
+   float: right;
+   display: block;
+   cursor: pointer;
+   background-color: white;
+   border: 1px;
+   border-color: black;
+   user-select:none;
+   text-align: center;
+}
+#section1_1{
+   white-space: nowrap;
+   overflow: hidden;
+}
+#section1_1 div{
+   display: inline-block;
+   margin: 30px 0px;
+}
+
+#section1_1 div img{
+   width: 185px;
+   height: 259px;
+}
+#section1_1 div img:hover{
+   transform:scale(1.1,1.1);
+}
+
+#asidebox{
+   float: right;
+   background-color: #f07b1761;
+   height: 500px;
+   width: 260px;
+}
+#asidebox li{
+   list-style: none;
+   display: block;
+}
+#asidebox h3{
+   margin:19px 20px;
+}
+#asidebox li a{
+   text-decoration: none;
+   text-align: left;
+   line-height: 30px;
+   font-size: 14px;
+   margin: 5px;
+   color: #313030;
+}
+
+#section2{
+   color: darkred;
+   background-color: #014cff1c;
+   height: 900px;
+   clear: both;
+}
+#section2 span{
+   display: inline-block;
+   font-size: large;
+   font-weight: bold;
+   color: #071a6f;
+   padding: 10px;
+   margin: 20px;
+}
+#section2 label{
+   float: right;
+   display: inline-block;
+   font-size: 25px;
+   font-weight: bold;
+   margin: 20px;
+}
+#section2 label a{
+   color: black;
+   text-decoration: none;
+}
+#section2_0{
+   display: flex;
+   flex-wrap: wrap;
+}
+#section2_0 div{
+   margin: 20px 7.28px;
+}
+#section2_0 img{
+
+   width: 164px;
+   height: 220px;
+   overflow: hidden;
+}
+
+#section2 img:hover{
+   transform:scale(1.2,1.2);
+}
+
+footer{
+   margin-top: 50px;
+   height: 280px;
+   background-color: #0000004f;
+}
+footer *{
+   text-decoration: none;
+   list-style: none;
+   color: black;
+}
+#footerbox div{
+   display: inline-block;
+   vertical-align: top;
+   padding-top: 30px;
+   padding-bottom: 10px
+   width: 353.5px;
+}
+#end{
+   text-align: center;
+}
